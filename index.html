@@ -6,19 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <title>TodoList</title>
 </head>
 
 <body>
-  <main class="container">
-    <div class="todo-list">
+  <main class="container" >
+    <ul id="todo-list" >
       <header>
         <span id="date"> </span>
         <button type="submit" class="saveBtn">저장</button>
       </header>
-      <div id="listBox"></div>
-      <div class="plusBtn" onclick=addList()>+</div>
-    </div>
+      <h1 class="name"> 나의 TodoList</h1>
+    </ul>
+    <div class="plusBtn" onclick="addList()">+</div>
   </main>
 
   <div class="rect1"></div>
