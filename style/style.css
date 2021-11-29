@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   color: #9e8271;
   font-family: 'Noto Sans KR', sans-serif;
+  overflow: hidden;
 }
 
 #todo-list::-webkit-scrollbar {
